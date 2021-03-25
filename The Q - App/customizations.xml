@@ -1,0 +1,95 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities></Entities>
+  <Roles></Roles>
+  <Workflows></Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <AppModuleSiteMaps>
+    <AppModuleSiteMap>
+      <SiteMapUniqueName>new_TheQ</SiteMapUniqueName>
+      <SiteMap IntroducedVersion="7.0.0.0">
+        <Area Id="Product_Area" ResourceId="SitemapDesigner.NewArea" DescriptionResourceId="SitemapDesigner.NewArea" ShowGroups="true" IntroducedVersion="7.0.0.0">
+          <Titles>
+            <Title LCID="1033" Title="Product" />
+          </Titles>
+          <Group Id="Menu_Group" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+            <Titles>
+              <Title LCID="1033" Title="Menu" />
+            </Titles>
+            <SubArea Id="CoreMenu_Subarea" IntroducedVersion="7.0.0.0" Entity="new_coremenu" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+            <SubArea Id="Market_Subarea" Entity="new_market" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+          </Group>
+          <Group Id="Product_Group" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+            <Titles>
+              <Title LCID="1033" Title="Product" />
+            </Titles>
+            <SubArea Id="Category_Subarea" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="new_category" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+            <SubArea Id="Subcategory_Subarea" Entity="new_subcategory" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+            <SubArea Id="ProductLine_Subarea" Entity="new_productline" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+            <SubArea Id="QItem_Subarea" Entity="new_qitem" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+          </Group>
+          <Group Id="Setup_Group" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+            <Titles>
+              <Title LCID="1033" Title="Setups" />
+            </Titles>
+            <SubArea Id="EquipmentCategory_Subarea" Entity="new_equipmentcategory" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+            <SubArea Id="Program_Subarea" Entity="new_program" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+          </Group>
+        </Area>
+      </SiteMap>
+      <LocalizedNames>
+        <LocalizedName description="The Q" languagecode="1033" />
+      </LocalizedNames>
+    </AppModuleSiteMap>
+  </AppModuleSiteMaps>
+  <AppModules>
+    <AppModule>
+      <UniqueName>new_TheQ</UniqueName>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+      <OptimizedFor></OptimizedFor>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+      <FormFactor>1</FormFactor>
+      <ClientType>4</ClientType>
+      <NavigationType>0</NavigationType>
+      <AppModuleComponents>
+        <AppModuleComponent type="62" schemaName="new_TheQ" />
+        <AppModuleComponent type="29" id="{e30177da-e887-eb11-a812-000d3a1e01e7}" />
+        <AppModuleComponent type="60" id="{ee50a18b-3f88-df11-8d93-00155db1891a}" />
+        <AppModuleComponent type="1" schemaName="activitypointer" />
+        <AppModuleComponent type="1" schemaName="new_category" />
+        <AppModuleComponent type="1" schemaName="category" />
+        <AppModuleComponent type="1" schemaName="new_coremenu" />
+        <AppModuleComponent type="1" schemaName="new_equipmentcategory" />
+        <AppModuleComponent type="1" schemaName="expiredprocess" />
+        <AppModuleComponent type="1" schemaName="knowledgearticle" />
+        <AppModuleComponent type="1" schemaName="new_market" />
+        <AppModuleComponent type="1" schemaName="new_newqitemprocess" />
+        <AppModuleComponent type="1" schemaName="new_productline" />
+        <AppModuleComponent type="1" schemaName="new_program" />
+        <AppModuleComponent type="1" schemaName="new_qitem" />
+        <AppModuleComponent type="1" schemaName="new_qitemmarketsetup" />
+        <AppModuleComponent type="1" schemaName="new_qitemmarketsetuplocalname" />
+        <AppModuleComponent type="1" schemaName="new_qitemmarketsetupperiod" />
+        <AppModuleComponent type="1" schemaName="new_subcategory" />
+      </AppModuleComponents>
+      <AppModuleRoleMaps>
+        <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </AppModuleRoleMaps>
+      <LocalizedNames>
+        <LocalizedName description="The Q" languagecode="1033" />
+      </LocalizedNames>
+    </AppModule>
+  </AppModules>
+  <EntityDataProviders />
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>
