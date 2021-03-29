@@ -4222,20 +4222,6 @@
               </Descriptions>
             </attribute>
           </attributes>
-          <EntityKeys>
-            <EntityKey>
-              <Name>new_DuplicatedName</Name>
-              <LogicalName>new_duplicatedname</LogicalName>
-              <IntroducedVersion>1.1.0.4</IntroducedVersion>
-              <IsCustomizable>0</IsCustomizable>
-              <EntityKeyAttributes>
-                <AttributeName>new_name</AttributeName>
-              </EntityKeyAttributes>
-              <displaynames>
-                <displayname description="Duplicated Name" languagecode="1033" />
-              </displaynames>
-            </EntityKey>
-          </EntityKeys>
           <EntitySetName>new_equipmentcategories</EntitySetName>
           <IsDuplicateCheckSupported>1</IsDuplicateCheckSupported>
           <IsBusinessProcessEnabled>0</IsBusinessProcessEnabled>
@@ -5908,6 +5894,20 @@
               </Descriptions>
             </attribute>
           </attributes>
+           <EntityKeys>
+            <EntityKey>
+              <Name>new_Duplicatemarketname</Name>
+              <LogicalName>new_duplicatemarketname</LogicalName>
+              <IntroducedVersion>1.1.0.4</IntroducedVersion>
+              <IsCustomizable>0</IsCustomizable>
+              <EntityKeyAttributes>
+                <AttributeName>new_name</AttributeName>
+              </EntityKeyAttributes>
+              <displaynames>
+                <displayname description="Duplicate market name" languagecode="1033" />
+              </displaynames>
+            </EntityKey>
+          </EntityKeys>
           <EntitySetName>new_markets</EntitySetName>
           <IsDuplicateCheckSupported>1</IsDuplicateCheckSupported>
           <IsBusinessProcessEnabled>0</IsBusinessProcessEnabled>
