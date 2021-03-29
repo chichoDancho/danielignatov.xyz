@@ -1,4 +1,4 @@
-<ImportExportXml version="9.2.21024.152" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.21023.136" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>TheQapp</UniqueName>
     <LocalizedNames>
@@ -88,11 +88,11 @@
         <Dependent key="1" type="62" schemaName="new_TheQ" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="2" type="1" schemaName="new_coremenu" displayName="Core Menu" solution="Active" />
+        <Required key="2" type="1" schemaName="new_program" displayName="Program" solution="Active" />
         <Dependent key="1" type="62" schemaName="new_TheQ" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="3" type="1" schemaName="new_program" displayName="Program" solution="Active" />
+        <Required key="3" type="1" schemaName="new_qitem" displayName="Q Item" solution="Active" />
         <Dependent key="1" type="62" schemaName="new_TheQ" />
       </MissingDependency>
       <MissingDependency>
@@ -100,15 +100,15 @@
         <Dependent key="1" type="62" schemaName="new_TheQ" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="5" type="1" schemaName="new_productline" displayName="Product Line" solution="Active" />
+        <Required key="5" type="1" schemaName="new_market" displayName="Market" solution="Active" />
         <Dependent key="1" type="62" schemaName="new_TheQ" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="6" type="1" schemaName="new_qitem" displayName="Q Item" solution="Active" />
+        <Required key="6" type="1" schemaName="new_productline" displayName="Product Line" solution="Active" />
         <Dependent key="1" type="62" schemaName="new_TheQ" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="7" type="1" schemaName="new_market" displayName="Market" solution="Active" />
+        <Required key="7" type="1" schemaName="new_coremenu" displayName="Core Menu" solution="Active" />
         <Dependent key="1" type="62" schemaName="new_TheQ" />
       </MissingDependency>
       <MissingDependency>
@@ -116,11 +116,39 @@
         <Dependent key="1" type="62" schemaName="new_TheQ" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="7" type="1" schemaName="new_market" displayName="Market" solution="Active" />
+        <Required key="6" type="1" schemaName="new_productline" displayName="Product Line" solution="Active" />
         <Dependent key="9" type="80" schemaName="new_TheQ" displayName="The Q" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="3" type="1" schemaName="new_program" displayName="Program" solution="Active" />
+        <Required key="10" type="1" schemaName="new_qitemmarketsetuplocalname" displayName="Q Item Market Setup Local Name" solution="Active" />
+        <Dependent key="9" type="80" schemaName="new_TheQ" displayName="The Q" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="11" type="1" schemaName="new_newqitemprocess" displayName="New Q Item Process" solution="Active" />
+        <Dependent key="9" type="80" schemaName="new_TheQ" displayName="The Q" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="12" type="1" schemaName="new_qitemmarketsetupperiod" displayName="Q Item Market Setup Period" solution="Active" />
+        <Dependent key="9" type="80" schemaName="new_TheQ" displayName="The Q" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="13" type="1" schemaName="new_qitemmarketsetup" displayName="Q Item Market Setup" solution="Active" />
+        <Dependent key="9" type="80" schemaName="new_TheQ" displayName="The Q" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="1" schemaName="new_equipmentcategory" displayName="Equipment Category" solution="Active" />
+        <Dependent key="9" type="80" schemaName="new_TheQ" displayName="The Q" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="new_qitem" displayName="Q Item" solution="Active" />
+        <Dependent key="9" type="80" schemaName="new_TheQ" displayName="The Q" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="new_program" displayName="Program" solution="Active" />
+        <Dependent key="9" type="80" schemaName="new_TheQ" displayName="The Q" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="7" type="1" schemaName="new_coremenu" displayName="Core Menu" solution="Active" />
         <Dependent key="9" type="80" schemaName="new_TheQ" displayName="The Q" />
       </MissingDependency>
       <MissingDependency>
@@ -128,39 +156,11 @@
         <Dependent key="9" type="80" schemaName="new_TheQ" displayName="The Q" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="10" type="1" schemaName="new_newqitemprocess" displayName="New Q Item Process" solution="Active" />
+        <Required key="5" type="1" schemaName="new_market" displayName="Market" solution="Active" />
         <Dependent key="9" type="80" schemaName="new_TheQ" displayName="The Q" />
       </MissingDependency>
       <MissingDependency>
         <Required key="8" type="1" schemaName="new_category" displayName="Category" solution="Active" />
-        <Dependent key="9" type="80" schemaName="new_TheQ" displayName="The Q" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="6" type="1" schemaName="new_qitem" displayName="Q Item" solution="Active" />
-        <Dependent key="9" type="80" schemaName="new_TheQ" displayName="The Q" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="11" type="1" schemaName="new_qitemmarketsetuplocalname" displayName="Q Item Market Setup Local Name" solution="Active" />
-        <Dependent key="9" type="80" schemaName="new_TheQ" displayName="The Q" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="12" type="1" schemaName="new_qitemmarketsetup" displayName="Q Item Market Setup" solution="Active" />
-        <Dependent key="9" type="80" schemaName="new_TheQ" displayName="The Q" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="5" type="1" schemaName="new_productline" displayName="Product Line" solution="Active" />
-        <Dependent key="9" type="80" schemaName="new_TheQ" displayName="The Q" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="2" type="1" schemaName="new_coremenu" displayName="Core Menu" solution="Active" />
-        <Dependent key="9" type="80" schemaName="new_TheQ" displayName="The Q" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="4" type="1" schemaName="new_equipmentcategory" displayName="Equipment Category" solution="Active" />
-        <Dependent key="9" type="80" schemaName="new_TheQ" displayName="The Q" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="13" type="1" schemaName="new_qitemmarketsetupperiod" displayName="Q Item Market Setup Period" solution="Active" />
         <Dependent key="9" type="80" schemaName="new_TheQ" displayName="The Q" />
       </MissingDependency>
       <MissingDependency>
