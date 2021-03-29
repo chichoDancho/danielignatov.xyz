@@ -2086,6 +2086,7 @@
               <LogicalName>new_menuowner</LogicalName>
               <RequiredLevel>none</RequiredLevel>
               <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
               <ValidForUpdateApi>1</ValidForUpdateApi>
               <ValidForReadApi>1</ValidForReadApi>
               <ValidForCreateApi>1</ValidForCreateApi>
@@ -4221,6 +4222,20 @@
               </Descriptions>
             </attribute>
           </attributes>
+          <EntityKeys>
+            <EntityKey>
+              <Name>new_DuplicatedName</Name>
+              <LogicalName>new_duplicatedname</LogicalName>
+              <IntroducedVersion>1.1.0.4</IntroducedVersion>
+              <IsCustomizable>0</IsCustomizable>
+              <EntityKeyAttributes>
+                <AttributeName>new_name</AttributeName>
+              </EntityKeyAttributes>
+              <displaynames>
+                <displayname description="Duplicated Name" languagecode="1033" />
+              </displaynames>
+            </EntityKey>
+          </EntityKeys>
           <EntitySetName>new_equipmentcategories</EntitySetName>
           <IsDuplicateCheckSupported>1</IsDuplicateCheckSupported>
           <IsBusinessProcessEnabled>0</IsBusinessProcessEnabled>
@@ -5463,6 +5478,7 @@
               <LogicalName>new_parentmarket</LogicalName>
               <RequiredLevel>none</RequiredLevel>
               <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
               <ValidForUpdateApi>1</ValidForUpdateApi>
               <ValidForReadApi>1</ValidForReadApi>
               <ValidForCreateApi>1</ValidForCreateApi>
@@ -6979,7 +6995,7 @@
               <IsRetrievable>0</IsRetrievable>
               <IsLocalizable>0</IsLocalizable>
               <Format>date</Format>
-              <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
+              <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
               <Behavior>1</Behavior>
               <displaynames>
                 <displayname description="Active Stage Started On" languagecode="1033" />
@@ -7075,6 +7091,7 @@
               <LogicalName>bpf_new_qitemid</LogicalName>
               <RequiredLevel>none</RequiredLevel>
               <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
               <ValidForUpdateApi>1</ValidForUpdateApi>
               <ValidForReadApi>1</ValidForReadApi>
               <ValidForCreateApi>1</ValidForCreateApi>
@@ -7175,7 +7192,7 @@
               <IsRetrievable>0</IsRetrievable>
               <IsLocalizable>0</IsLocalizable>
               <Format>date</Format>
-              <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
+              <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
               <Behavior>1</Behavior>
               <displaynames>
                 <displayname description="Completed On" languagecode="1033" />
@@ -7489,6 +7506,7 @@
               <IsFilterable>0</IsFilterable>
               <IsRetrievable>0</IsRetrievable>
               <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
               <LookupTypes />
               <displaynames>
                 <displayname description="Organization Id" languagecode="1033" />
@@ -7843,7 +7861,7 @@
           <ActivityTypeMask></ActivityTypeMask>
           <IsActivityParty>0</IsActivityParty>
           <IsReplicated>1</IsReplicated>
-          <IsReplicationUserFiltered>0</IsReplicationUserFiltered>
+          <IsReplicationUserFiltered>1</IsReplicationUserFiltered>
           <IsMailMergeEnabled>0</IsMailMergeEnabled>
           <IsVisibleInMobile>0</IsVisibleInMobile>
           <IsVisibleInMobileClient>1</IsVisibleInMobileClient>
@@ -9068,6 +9086,7 @@
               <LogicalName>new_subcategory</LogicalName>
               <RequiredLevel>none</RequiredLevel>
               <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
               <ValidForUpdateApi>1</ValidForUpdateApi>
               <ValidForReadApi>1</ValidForReadApi>
               <ValidForCreateApi>1</ValidForCreateApi>
@@ -12823,7 +12842,7 @@
               <Name>new_photo</Name>
               <LogicalName>new_photo</LogicalName>
               <RequiredLevel>none</RequiredLevel>
-              <DisplayMask>DenormalizedChild|ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <DisplayMask>DenormalizedChild|PrimaryImage|ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
               <ImeMode>disabled</ImeMode>
               <ValidForUpdateApi>1</ValidForUpdateApi>
               <ValidForReadApi>1</ValidForReadApi>
@@ -12865,6 +12884,7 @@
               <LogicalName>new_productline</LogicalName>
               <RequiredLevel>none</RequiredLevel>
               <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
               <ValidForUpdateApi>1</ValidForUpdateApi>
               <ValidForReadApi>1</ValidForReadApi>
               <ValidForCreateApi>1</ValidForCreateApi>
@@ -15532,6 +15552,7 @@
               <LogicalName>new_market</LogicalName>
               <RequiredLevel>none</RequiredLevel>
               <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
               <ValidForUpdateApi>1</ValidForUpdateApi>
               <ValidForReadApi>1</ValidForReadApi>
               <ValidForCreateApi>1</ValidForCreateApi>
@@ -15649,6 +15670,7 @@
               <LogicalName>new_qitem</LogicalName>
               <RequiredLevel>none</RequiredLevel>
               <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
               <ValidForUpdateApi>1</ValidForUpdateApi>
               <ValidForReadApi>1</ValidForReadApi>
               <ValidForCreateApi>1</ValidForCreateApi>
@@ -17494,6 +17516,7 @@
               <LogicalName>new_qitemmarketsetup</LogicalName>
               <RequiredLevel>none</RequiredLevel>
               <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
               <ValidForUpdateApi>1</ValidForUpdateApi>
               <ValidForReadApi>1</ValidForReadApi>
               <ValidForCreateApi>1</ValidForCreateApi>
@@ -19147,6 +19170,7 @@
               <LogicalName>new_qitemmarketsetup</LogicalName>
               <RequiredLevel>none</RequiredLevel>
               <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
               <ValidForUpdateApi>1</ValidForUpdateApi>
               <ValidForReadApi>1</ValidForReadApi>
               <ValidForCreateApi>1</ValidForCreateApi>
@@ -20803,6 +20827,7 @@
               <LogicalName>new_brandmanager</LogicalName>
               <RequiredLevel>none</RequiredLevel>
               <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
               <ValidForUpdateApi>1</ValidForUpdateApi>
               <ValidForReadApi>1</ValidForReadApi>
               <ValidForCreateApi>1</ValidForCreateApi>
@@ -20841,6 +20866,7 @@
               <LogicalName>new_category</LogicalName>
               <RequiredLevel>none</RequiredLevel>
               <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
               <ValidForUpdateApi>1</ValidForUpdateApi>
               <ValidForReadApi>1</ValidForReadApi>
               <ValidForCreateApi>1</ValidForCreateApi>
@@ -20879,6 +20905,7 @@
               <LogicalName>new_fsqrcontact</LogicalName>
               <RequiredLevel>none</RequiredLevel>
               <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
               <ValidForUpdateApi>1</ValidForUpdateApi>
               <ValidForReadApi>1</ValidForReadApi>
               <ValidForCreateApi>1</ValidForCreateApi>
@@ -20998,6 +21025,7 @@
               <LogicalName>new_productdeveloper</LogicalName>
               <RequiredLevel>none</RequiredLevel>
               <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
               <ValidForUpdateApi>1</ValidForUpdateApi>
               <ValidForReadApi>1</ValidForReadApi>
               <ValidForCreateApi>1</ValidForCreateApi>
@@ -22439,15 +22467,6 @@
       <Name LocalizedName="Sharepoint Document" OriginalName="">SharePointDocument</Name>
       <EntityInfo>
         <entity Name="SharePointDocument">
-          <LocalizedNames>
-            <LocalizedName description="Sharepoint Document" languagecode="1033" />
-          </LocalizedNames>
-          <LocalizedCollectionNames>
-            <LocalizedCollectionName description="Documents" languagecode="1033" />
-          </LocalizedCollectionNames>
-          <Descriptions>
-            <Description description="Document libraries or folders on a SharePoint server from where documents can be managed in Microsoft Dynamics 365." languagecode="1033" />
-          </Descriptions>
           <attributes>
             <attribute PhysicalName="AppCreatedBy">
               <Type>nvarchar</Type>
@@ -23288,6 +23307,15 @@
       <Name LocalizedName="User" OriginalName="">SystemUser</Name>
       <EntityInfo>
         <entity Name="SystemUser">
+          <LocalizedNames>
+            <LocalizedName description="User" languagecode="1033" />
+          </LocalizedNames>
+          <LocalizedCollectionNames>
+            <LocalizedCollectionName description="Users" languagecode="1033" />
+          </LocalizedCollectionNames>
+          <Descriptions>
+            <Description description="Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database." languagecode="1033" />
+          </Descriptions>
           <attributes />
           <EntitySetName>systemusers</EntitySetName>
           <IsDuplicateCheckSupported>0</IsDuplicateCheckSupported>
@@ -26053,8 +26081,8 @@
       <TriggerOnDelete>0</TriggerOnDelete>
       <AsyncAutodelete>0</AsyncAutodelete>
       <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
-      <StateCode>0</StateCode>
-      <StatusCode>1</StatusCode>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
       <processorder>100</processorder>
       <RunAs>1</RunAs>
       <UniqueName>new_newqitemprocess</UniqueName>
@@ -26088,7 +26116,6 @@
           <label languagecode="1033" description="Status" />
         </steplabels>
       </labels>
-      <ProcessTriggers />
     </Workflow>
     <Workflow WorkflowId="{0edce048-7888-eb11-a812-000d3a1e0b62}" Name="Recalculate In Menu Statuses">
       <JsonFileName>/Workflows/RecalculateInMenuStatuses-0EDCE048-7888-EB11-A812-000D3A1E0B62.json</JsonFileName>
@@ -26108,7 +26135,6 @@
       <IsTransacted>1</IsTransacted>
       <IntroducedVersion>1.0.0.0</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
-      <BusinessProcessType>0</BusinessProcessType>
       <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
       <PrimaryEntity>none</PrimaryEntity>
       <LocalizedNames>
@@ -26133,7 +26159,6 @@
       <IsTransacted>1</IsTransacted>
       <IntroducedVersion>1.1.0.3</IntroducedVersion>
       <IsCustomizable>1</IsCustomizable>
-      <BusinessProcessType>0</BusinessProcessType>
       <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
       <PrimaryEntity>none</PrimaryEntity>
       <LocalizedNames>
@@ -28025,10 +28050,272 @@
         </Descriptions>
       </RelationshipDescription>
     </EntityRelationship>
+    <EntityRelationship Name="sample_challenge_SharePointDocuments">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>SharePointDocument</ReferencingEntityName>
+      <ReferencedEntityName>sample_challenge</ReferencedEntityName>
+      <CascadeAssign>Cascade</CascadeAssign>
+      <CascadeDelete>Cascade</CascadeDelete>
+      <CascadeReparent>Cascade</CascadeReparent>
+      <CascadeShare>Cascade</CascadeShare>
+      <CascadeUnshare>Cascade</CascadeUnshare>
+      <ReferencingAttributeName>RegardingObjectId</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Choose the parent record that the SharePoint document record is associated with." languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+      <EntityRelationshipRoles>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>60</NavPaneOrder>
+          <NavigationPropertyName>regardingobjectid_sample_challenge</NavigationPropertyName>
+          <RelationshipRoleType>1</RelationshipRoleType>
+        </EntityRelationshipRole>
+        <EntityRelationshipRole>
+          <NavigationPropertyName>sample_challenge_SharePointDocuments</NavigationPropertyName>
+          <RelationshipRoleType>0</RelationshipRoleType>
+        </EntityRelationshipRole>
+      </EntityRelationshipRoles>
+    </EntityRelationship>
+    <EntityRelationship Name="sample_fundraiser_SharePointDocuments">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0.0.2</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>SharePointDocument</ReferencingEntityName>
+      <ReferencedEntityName>sample_fundraiser</ReferencedEntityName>
+      <CascadeAssign>Cascade</CascadeAssign>
+      <CascadeDelete>Cascade</CascadeDelete>
+      <CascadeReparent>Cascade</CascadeReparent>
+      <CascadeShare>Cascade</CascadeShare>
+      <CascadeUnshare>Cascade</CascadeUnshare>
+      <ReferencingAttributeName>RegardingObjectId</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Choose the parent record that the SharePoint document record is associated with." languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+      <EntityRelationshipRoles>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>60</NavPaneOrder>
+          <NavigationPropertyName>regardingobjectid_sample_fundraiser</NavigationPropertyName>
+          <RelationshipRoleType>1</RelationshipRoleType>
+        </EntityRelationshipRole>
+        <EntityRelationshipRole>
+          <NavigationPropertyName>sample_fundraiser_SharePointDocuments</NavigationPropertyName>
+          <RelationshipRoleType>0</RelationshipRoleType>
+        </EntityRelationshipRole>
+      </EntityRelationshipRoles>
+    </EntityRelationship>
+    <EntityRelationship Name="sample_idea_SharePointDocuments">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>SharePointDocument</ReferencingEntityName>
+      <ReferencedEntityName>sample_idea</ReferencedEntityName>
+      <CascadeAssign>Cascade</CascadeAssign>
+      <CascadeDelete>Cascade</CascadeDelete>
+      <CascadeReparent>Cascade</CascadeReparent>
+      <CascadeShare>Cascade</CascadeShare>
+      <CascadeUnshare>Cascade</CascadeUnshare>
+      <ReferencingAttributeName>RegardingObjectId</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Choose the parent record that the SharePoint document record is associated with." languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+      <EntityRelationshipRoles>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>60</NavPaneOrder>
+          <NavigationPropertyName>regardingobjectid_sample_idea</NavigationPropertyName>
+          <RelationshipRoleType>1</RelationshipRoleType>
+        </EntityRelationshipRole>
+        <EntityRelationshipRole>
+          <NavigationPropertyName>sample_idea_SharePointDocuments</NavigationPropertyName>
+          <RelationshipRoleType>0</RelationshipRoleType>
+        </EntityRelationshipRole>
+      </EntityRelationshipRoles>
+    </EntityRelationship>
+    <EntityRelationship Name="sample_product_SharePointDocuments">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>0.0.0.1</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>SharePointDocument</ReferencingEntityName>
+      <ReferencedEntityName>sample_product</ReferencedEntityName>
+      <CascadeAssign>Cascade</CascadeAssign>
+      <CascadeDelete>Cascade</CascadeDelete>
+      <CascadeReparent>Cascade</CascadeReparent>
+      <CascadeShare>Cascade</CascadeShare>
+      <CascadeUnshare>Cascade</CascadeUnshare>
+      <ReferencingAttributeName>RegardingObjectId</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Choose the parent record that the SharePoint document record is associated with." languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+      <EntityRelationshipRoles>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>60</NavPaneOrder>
+          <NavigationPropertyName>regardingobjectid_sample_product</NavigationPropertyName>
+          <RelationshipRoleType>1</RelationshipRoleType>
+        </EntityRelationshipRole>
+        <EntityRelationshipRole>
+          <NavigationPropertyName>sample_product_SharePointDocuments</NavigationPropertyName>
+          <RelationshipRoleType>0</RelationshipRoleType>
+        </EntityRelationshipRole>
+      </EntityRelationshipRoles>
+    </EntityRelationship>
+    <EntityRelationship Name="sample_review_SharePointDocuments">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>0.0.0.1</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>SharePointDocument</ReferencingEntityName>
+      <ReferencedEntityName>sample_review</ReferencedEntityName>
+      <CascadeAssign>Cascade</CascadeAssign>
+      <CascadeDelete>Cascade</CascadeDelete>
+      <CascadeReparent>Cascade</CascadeReparent>
+      <CascadeShare>Cascade</CascadeShare>
+      <CascadeUnshare>Cascade</CascadeUnshare>
+      <ReferencingAttributeName>RegardingObjectId</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Choose the parent record that the SharePoint document record is associated with." languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+      <EntityRelationshipRoles>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>60</NavPaneOrder>
+          <NavigationPropertyName>regardingobjectid_sample_review</NavigationPropertyName>
+          <RelationshipRoleType>1</RelationshipRoleType>
+        </EntityRelationshipRole>
+        <EntityRelationshipRole>
+          <NavigationPropertyName>sample_review_SharePointDocuments</NavigationPropertyName>
+          <RelationshipRoleType>0</RelationshipRoleType>
+        </EntityRelationshipRole>
+      </EntityRelationshipRoles>
+    </EntityRelationship>
+    <EntityRelationship Name="sample_sample_challenge_systemuser">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>SystemUser</ReferencingEntityName>
+      <ReferencedEntityName>sample_challenge</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>RemoveLink</CascadeDelete>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <CascadeRollupView>NoCascade</CascadeRollupView>
+      <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+      <ReferencingAttributeName>sample_StakeholdersId</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Add additional stakeholders." languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+      <EntityRelationshipRoles>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>10000</NavPaneOrder>
+          <NavigationPropertyName>sample_StakeholdersId</NavigationPropertyName>
+          <CustomLabels>
+            <CustomLabel description="" languagecode="1033" />
+          </CustomLabels>
+          <RelationshipRoleType>1</RelationshipRoleType>
+        </EntityRelationshipRole>
+        <EntityRelationshipRole>
+          <RelationshipRoleType>0</RelationshipRoleType>
+        </EntityRelationshipRole>
+      </EntityRelationshipRoles>
+    </EntityRelationship>
+    <EntityRelationship Name="sample_sample_idea_systemuser">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>SystemUser</ReferencingEntityName>
+      <ReferencedEntityName>sample_idea</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>RemoveLink</CascadeDelete>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <CascadeRollupView>NoCascade</CascadeRollupView>
+      <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+      <ReferencingAttributeName>sample_TeammemberId</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Unique identifier for Idea associated with User." languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+      <EntityRelationshipRoles>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>10000</NavPaneOrder>
+          <NavigationPropertyName>sample_TeammemberId</NavigationPropertyName>
+          <CustomLabels>
+            <CustomLabel description="" languagecode="1033" />
+          </CustomLabels>
+          <RelationshipRoleType>1</RelationshipRoleType>
+        </EntityRelationshipRole>
+        <EntityRelationshipRole>
+          <RelationshipRoleType>0</RelationshipRoleType>
+        </EntityRelationshipRole>
+      </EntityRelationshipRoles>
+    </EntityRelationship>
+    <EntityRelationship Name="sample_teamproject_SharePointDocuments">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>SharePointDocument</ReferencingEntityName>
+      <ReferencedEntityName>sample_teamproject</ReferencedEntityName>
+      <CascadeAssign>Cascade</CascadeAssign>
+      <CascadeDelete>Cascade</CascadeDelete>
+      <CascadeReparent>Cascade</CascadeReparent>
+      <CascadeShare>Cascade</CascadeShare>
+      <CascadeUnshare>Cascade</CascadeUnshare>
+      <ReferencingAttributeName>RegardingObjectId</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Choose the parent record that the SharePoint document record is associated with." languagecode="1033" />
+        </Descriptions>
+      </RelationshipDescription>
+      <EntityRelationshipRoles>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>60</NavPaneOrder>
+          <NavigationPropertyName>regardingobjectid_sample_teamproject</NavigationPropertyName>
+          <RelationshipRoleType>1</RelationshipRoleType>
+        </EntityRelationshipRole>
+        <EntityRelationshipRole>
+          <NavigationPropertyName>sample_teamproject_SharePointDocuments</NavigationPropertyName>
+          <RelationshipRoleType>0</RelationshipRoleType>
+        </EntityRelationshipRole>
+      </EntityRelationshipRoles>
+    </EntityRelationship>
     <EntityRelationship Name="systemuser_SharePointDocuments">
       <EntityRelationshipType>OneToMany</EntityRelationshipType>
       <IsCustomizable>1</IsCustomizable>
-      <IntroducedVersion>1.0</IntroducedVersion>
+      <IntroducedVersion>1.1.0.4</IntroducedVersion>
       <IsHierarchical>0</IsHierarchical>
       <ReferencingEntityName>SharePointDocument</ReferencingEntityName>
       <ReferencedEntityName>SystemUser</ReferencedEntityName>
